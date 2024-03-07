@@ -33,7 +33,7 @@ nav {
     vertical-align: middle;
     color: #4d5ae5;
 }
-.logo1 {
+.logoone {
     color: #2e2f42;
 }
 
@@ -206,11 +206,11 @@ nav {
 
 .our-portfolio-h {
     margin: 120px 0 72px;
-    text-align: center;
+    font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    font-size: 36px;
     color: #2e2f42;
 }
 .our-portfolio-ul {
@@ -239,10 +239,10 @@ nav {
 }
 .our-portfolio-p {
     margin: 4px 0 32px 16px;
-    line-height: 1.5;
     font-size: 16px;
-    letter-spacing: 0.02em;
+    line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
 .footer {
@@ -250,7 +250,7 @@ nav {
     color: #F4F4FD;
     padding: 100px;
 }
-.logo2 {
+.logotwo {
     color: #4d5ae5;
 }
 .footer-p {
