@@ -145,6 +145,29 @@ button {
     margin: 7px 0;
 }
 
+.section-3 h2 {
+    margin: 120px 0 72px;
+    text-align: center;
+}
+.section-3 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-3 li {
+    list-style-type: none;
+    margin: 24px 12px;
+    border-width: 0px, 1px, 1px, 1px;
+    border-style: solid;
+    border-color: #E7E9FC;
+}
+.section-3 h3 {
+    margin: 32px 0 4px 16px;
+}
+.section-3 p {
+    margin: 4px 0 32px 16px;
+}
+
 footer {
     background-color: #2E2F42;
     color: #F4F4FD;
