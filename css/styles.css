@@ -92,7 +92,7 @@ nav {
     background-color: #2E2F42;
     color: #fff;
 }
-.section-h1 {
+.section-h {
     margin: 0;
     padding: 180px 0 68px;
     font-size: 56px;
@@ -110,9 +110,8 @@ nav {
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-size: 16px;
+    font-weight: 500;
     border: 0px solid #000;
-    border-radius: 3px;
-    box-shadow: 3px 5px 5px #222;
     cursor: pointer;
 }
 .section-button:hover {
@@ -125,7 +124,7 @@ nav {
 .advantages {
     width: 100%; height: 344px;
 }
-.advantages-h2 {
+.advantages-h {
     text-align: center;
     font-weight: 500;
     font-size: 20px;
@@ -133,6 +132,7 @@ nav {
     letter-spacing: 0.02em;
     margin: 0;
     padding: 50px 0;
+    color: #2e2f42;
 }
 .advantages-ul {
     margin: 0;
@@ -160,7 +160,7 @@ nav {
     width: 100%; height: 732px;
     background-color: #F4F4FD;;
 }
-.our-team-h2 {
+.our-team-h {
     text-align: center;
     font-size: 36px;
     margin: 0; 
@@ -169,6 +169,7 @@ nav {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     font-size: 36px;
+    color: #2e2f42;
 }
 .our-team-ul {
     margin: 0;
@@ -187,8 +188,13 @@ nav {
     background-color: #fff;
     text-align: center;
 }
-.our-team-li-h3 {
+.our-team-li-h {
     margin: 25px 0 7px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-size: 20px;
 }
 .our-team-li-p {
     margin: 7px 0;
@@ -198,13 +204,14 @@ nav {
     letter-spacing: 0.02em;
 }
 
-.our-portfolio-h2 {
+.our-portfolio-h {
     margin: 120px 0 72px;
     text-align: center;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     font-size: 36px;
+    color: #2e2f42;
 }
 .our-portfolio-ul {
     display: flex;
@@ -222,25 +229,30 @@ nav {
     border-style: solid;
     border-color: #E7E9FC;
 }
-.our-portfolio h3 {
+.our-portfolio-h {
     margin: 32px 0 4px 16px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .our-portfolio-p {
     margin: 4px 0 32px 16px;
     line-height: 1.5;
+    font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-footer {
+.footer {
     background-color: #2E2F42;
     color: #F4F4FD;
     padding: 100px;
 }
-footer a {
-    text-decoration: none;
-    color: #F4F4FD;
+.logo2 {
+    color: #4d5ae5;
 }
-footer p {
+.footer-p {
     width: 264px;
 }
