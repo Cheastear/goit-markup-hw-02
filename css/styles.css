@@ -8,22 +8,22 @@ body {
 
 header {
     background-color:#E7E9FC;
-    display: flex;
+    /*display: flex;*/
     flex-wrap: nowrap;
     justify-content: space-around;
-    padding: 24px 0;
+    /*padding: 24px 0;*/
     width: 100%;
 }
 
 nav {
     height: 24px;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
 }
 .logo {
     text-decoration: none;
     color: #2E2F42;
-    padding: 0 50px 0 20px;
+    /*padding: 0 50px 0 20px;*/
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -38,12 +38,12 @@ nav {
 }
 
 .nav-ul {
-    padding: 3px 0;
+    /*padding: 3px 0;*/
     margin: 0;
 }
 .nav-li {
     list-style-type: none;
-    display: -webkit-inline-box;
+    /*display: -webkit-inline-box;*/
     margin: 0px 9px;
 }
 .nav-li-a {
@@ -65,11 +65,11 @@ nav {
 }
 .address-ul {
     margin: 0;
-    padding: 0;
+    /*padding: 0;*/
 }
 .address-li {
     list-style-type: none;
-    display: -webkit-inline-box;
+    /*display: -webkit-inline-box;*/
     margin: 0;
 }
 .address-li-a {
@@ -78,7 +78,7 @@ nav {
     font-weight: 200;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
 }
 .address-li-a:hover {
     color: #404bbf;
@@ -94,7 +94,7 @@ nav {
 }
 .section-h {
     margin: 0;
-    padding: 180px 0 68px;
+    /*padding: 180px 0 68px;*/
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -104,7 +104,7 @@ nav {
     background-color: #4D5AE5;
     width: 170px; height: 56px;
     margin: 0px auto 72px;
-    display: block;
+    /*display: block;*/
     color: #fff;
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
@@ -131,13 +131,13 @@ nav {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin: 0;
-    padding: 50px 0;
+    /*padding: 50px 0;*/
     color: #2e2f42;
 }
 .advantages-ul {
     margin: 0;
-    padding: 0;
-    display: flex;
+    /*padding: 0;*/
+    /*display: flex;*/
     flex-wrap: nowrap;
     align-items: center;
     align-content: center;
@@ -145,9 +145,16 @@ nav {
 }
 .advantages-li {
     list-style-type: none;
-    display: block;
-    padding: 12px;
+    /*display: block;*/
+    /*padding: 12px;*/
     width: 264px;
+}
+.advantages-li-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .advantages-p {
     font-size: 16px;
@@ -164,7 +171,7 @@ nav {
     text-align: center;
     font-size: 36px;
     margin: 0; 
-    padding: 120px 0px 72px;
+    /*padding: 120px 0px 72px;*/
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -173,8 +180,8 @@ nav {
 }
 .our-team-ul {
     margin: 0;
-    padding: 0;
-    display: flex;
+    /*padding: 0;*/
+    /*display: flex;*/
     flex-wrap: nowrap;
     align-items: center;
     align-content: center;
@@ -184,7 +191,7 @@ nav {
     height: 380px;
     margin: 11px;
     list-style-type: none;
-    display: block;
+    /*display: block;*/
     background-color: #fff;
     text-align: center;
 }
@@ -206,15 +213,15 @@ nav {
 
 .our-portfolio-h {
     margin: 120px 0 72px;
-    font-size: 36px;
-    line-height: 1.11;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
 }
 .our-portfolio-ul {
-    display: flex;
+    /*display: flex;*/
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -248,7 +255,7 @@ nav {
 .footer {
     background-color: #2E2F42;
     color: #f4f4fd;
-    padding: 100px;
+    /*padding: 100px;*/
 }
 .logotwo {
     color: #f4f4fd;
