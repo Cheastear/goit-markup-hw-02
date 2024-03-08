@@ -232,8 +232,8 @@ nav {
 .our-portfolio-h {
     margin: 32px 0 4px 16px;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -247,12 +247,14 @@ nav {
 
 .footer {
     background-color: #2E2F42;
-    color: #F4F4FD;
+    color: #f4f4fd;
     padding: 100px;
 }
 .logotwo {
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 .footer-p {
     width: 264px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
