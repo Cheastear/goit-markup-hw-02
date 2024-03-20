@@ -243,6 +243,8 @@ nav {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
 }
 .our-portfolio-h {
     margin: 32px 0 4px 16px;
